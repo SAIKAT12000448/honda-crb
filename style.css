@@ -12,3 +12,6 @@ header{
 .feature-container .feature .grayscale{
     filter:grayscale(100%);
 }
+.carousel-change-color{
+    background-color: #264653;
+}

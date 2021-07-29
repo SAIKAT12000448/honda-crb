@@ -55,7 +55,7 @@
                
                 <!-- modal button  -->
                <!-- Button trigger modal -->
-<button type="button" class="btn bgcolor px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn bgcolor text-white px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
     purchase
   </button>
   
@@ -115,7 +115,7 @@
          <h1 class="text-center my-5">Happy <span style="color: #E76F51;">clients says</span></h1>
          <!-- card -->
          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-          <div class="col">
+          <div class="col-md-6 col-lg-4">
             <div class="card p-5">
               <img src="images/user-1.png" class="card-img-top px-5 pt-5 pb-3" alt="...">
               <div class="card-body">
@@ -137,7 +137,7 @@
               
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6 col-lg-4">
             <div class="card p-5">
               <img src="images/user-2.png" class="card-img-top px-5 pt-5 pb-3" alt="...">
               <div class="card-body">
@@ -159,7 +159,7 @@
               
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6 col-lg-4">
             <div class="card p-5">
               <img height="100%"  src="images/user-3.jpg" class="card-img-top  rounded-circle p-5 w-100" alt="...">
               <div class="card-body">
@@ -263,12 +263,150 @@
          </div>
         </div>
       </section>
-
-    
-
+     
+      <!-- carousel section -->
+      <section class="container carousel-section py-5">
+        <h1 class="text-center">Our <span class="text-danger">Bikes</span></h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row mt-5  text-dark p-5 d-flex align-items-center carousel-change-color gy-5">
+                      <div class="col-lg-6 text-white">
+                          <h1>Platina 125-DTS-i</h1>
+                          <p>Bajaj Platina 125CC Motor Bike. 4 Stroke DTS-Si, natural air cooled engine; 124.6cc displacement; max power 8.5bhp @ 7000rpm; max. torque 10Nm @4000rpm;</p>
+                          <h1 class="text-danger">$2050</h1>
+                          <button type="button" class="btn btn-danger">Order</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+               
+              </div>
+              <div class="carousel-item">
+                <div class="row mt-5 carousel-change-color text-dark p-5 d-flex align-items-center gy-5">
+                    <div class="col-lg-6 text-white">
+                        <h1>discover 125-m</h1>
+                        <p>Discover 125 delivers a powerful yet economical and safe ride. Experience the Power of the 125 Disc. Specifications. FI & ABS. Pulsar NS160. Features. Models: Pulsar, Discover, Platina, CT100</p>
+                        <h1 class="text-danger">$4550</h1>
+                        <button type="button" class="btn btn-danger">Order</button>
+                    </div>
+                    <div class="col-lg-5 text-white">
+                      <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row mt-5 carousel-change-color text-dark p-5 d-flex align-items-center gy-5">
+                    <div class="col-lg-6 text-white">
+                        <h1>Pulsar 200 Dtsi</h1>
+                        <p>The Bajaj Pulsar 200 NS has quite a powerful engine. The engine can produce a peak torque of 18.3 Nm @ 8000 rpm and a maximum power of 23.17 bhp @ 9500 rpm.</p>
+                        <h1 class="text-danger">$6000</h1>
+                        <button type="button" class="btn btn-danger">Order</button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </section>
+     
+     <section class="container">
+       <h1 class="text-center pb-5">Our <span class="text-danger">TOP-10</span> Bike-list</h1>
+       <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">SI</th>
+            <th scope="col">Bike</th>
+            <th scope="col">price</th>
+            <th scope="col">Buy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Hero Splendor Plus</td>
+            <td>$1000</td>
+            <td><button type="button" class="btn btn-dark">details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Yamaha YZF R15 V3</td>
+            <td>$2500</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td >Yamaha FZ-X</td>
+            <td>$30000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td >Yamaha MT 15</td>
+            <td>$35000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td >pulsar 250</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td >splender</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td >Hero honda</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td >Sujuki</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td >Platina</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td >Discover</td>
+            <td>$80000</td>
+            <td><button type="button" class="btn btn-dark">Details</button></td>
+          </tr>
+        </tbody>
+      </table>
+     </section>
     </main>
-    <footer>
 
+
+    <footer class="container-fluid bg-dark mt-5">
+       <p class="text-white">&copy;2020 Bike.All rights reserved</p>
+      <div class="d-flex justify-content-center align-items-center  text-white p-3">
+        <p class="me-3"><i class="fab fa-facebook"></i></p>
+        <p class="me-3"><i class="fab fa-twitter-square"></i></p>
+        <p><i class="fab fa-linkedin"></i></p>
+      </div>
+     
     </footer>
 
 
